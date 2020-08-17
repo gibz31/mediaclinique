@@ -6,7 +6,7 @@ h2 {
 
 /*end test*/
 
-/*HeaderTop*/
+/**********HeaderTop***********/
 #_desktop_user_info {
     float: right;
     padding-right: 1.5em;    
@@ -16,6 +16,17 @@ h2 {
     float: right;
     
 }
+/**********End HeaderTop ***********/
 
+/********** Search Bar ***********/
 
-/*End HeaderTop */
+#search_widget{
+    height: 15em;
+    margin-bottom: 2em;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: red;
+}
+
+/********** End Search Bar ***********/
