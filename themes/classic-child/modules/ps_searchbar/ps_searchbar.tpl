@@ -1,0 +1,1 @@
+{extends file='parent:ps_searchbar/ps_searchbar.tpl'}

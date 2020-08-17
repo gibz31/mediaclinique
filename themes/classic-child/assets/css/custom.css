@@ -1,0 +1,21 @@
+/* Entrez le CSS personnalisé de votre thème enfant ici */
+/*test */
+h2 {
+    color: red;
+}
+
+/*end test*/
+
+/*HeaderTop*/
+#_desktop_user_info {
+    float: right;
+    padding-right: 1.5em;    
+}
+
+#_desktop_cart {
+    float: right;
+    
+}
+
+
+/*End HeaderTop */
