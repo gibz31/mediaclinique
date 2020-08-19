@@ -20,13 +20,58 @@ h2 {
 
 /********** Search Bar ***********/
 
-#search_widget{
-    height: 15em;
+.page-home #search_widget{
+    height: 30em;
     margin-bottom: 2em;
+    padding-left: 2em;
     align-items: center;
     display: flex;
-    justify-content: center;
     background-color: red;
+}
+
+.page-home .search-widget form input[type=text]{
+    height: 6em;
+    width: 200%;
+    border-radius: 1.2em;
+    font: 300 16px "Montserrat", arial, helvetica, clean, sans-serif;
+}
+
+.page-home .search-widget form input[type=text]:focus{
+    outline: none;
+}
+
+.page-home #button_search {
+    position: absolute;
+    left: 8em;
+    bottom: 1.4em;
+    border-radius: 0.5em;
+}
+
+.page-home .search-widget form button:focus {
+    outline: none;
+    border:0;
+}
+
+.page-home i {
+    position: absolute;
+    right: 0.3em;
+    bottom: 0.65em;
+}
+
+
+@media screen and (max-width: 768px){
+    .page-home .search-widget form input[type=text] {
+        min-width: 15.63rem;
+        font: 300 12px "Montserrat", arial, helvetica, clean, sans-serif;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .page-home .search-widget form input[type=text] {
+        min-width: 15.63rem;
+        width: 30%;
+    }
 }
 
 /********** End Search Bar ***********/
