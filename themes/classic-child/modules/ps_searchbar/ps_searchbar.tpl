@@ -33,24 +33,12 @@
                 <span class="hidden-xl-down">{l s='Search' d='Shop.Theme.Catalog'}</span>
             </button>
         </form>
-        <a class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-		"Test Modal"
+        <a id="modalSearch" class="btn btn-primary hidden-sm-down" data-toggle="modal" data-target="#modalManufacturer">
+            <i class="material-icons">help_outline</i>
+            Où se trouve mon numéro de modèle ?
         </a>
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        ...
-                    </div>
-                </div>
-            </div>
-        </div>
+        {block name='modals-search'}
+            {include file="_partials/modals-search.tpl"}
+        {/block}
     </div>
     <!-- /Block search module TOP -->

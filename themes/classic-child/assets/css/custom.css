@@ -24,8 +24,10 @@ h2 {
     height: 30em;
     margin-bottom: 2em;
     padding-left: 2em;
-    align-items: center;
     display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
     background-color: red;
 }
 
@@ -52,7 +54,7 @@ h2 {
     border:0;
 }
 
-.page-home i {
+.page-home .search-widget button[type=submit] i {
     position: absolute;
     right: 0.3em;
     bottom: 0.65em;
@@ -75,3 +77,45 @@ h2 {
 }
 
 /********** End Search Bar ***********/
+
+/********** Modal Search ***********/
+
+.page-home #modalSearch{
+    background: none;
+    margin-top: 1em;
+    border: none;
+    box-shadow: none;
+    color: white;
+    font-size: small;
+    padding-left: 0;
+}
+
+.page-home #modalSearch i{
+    font-size: x-large;
+}
+
+
+#modalManufacturer{
+    text-align: center;
+}
+
+#modalManufacturer ul {
+    list-style: none;
+    padding-left: 0;
+    scroll-padding-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#modalManufacturer li {
+    flex: 0 50%;
+    padding-bottom: 1em;
+    cursor: pointer;
+}
+
+#appleModal a{
+    cursor: pointer;
+}
+/********** End Modal Search ***********/
+

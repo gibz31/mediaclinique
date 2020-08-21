@@ -121,6 +121,7 @@ themes/*/
 !themes/classic-child
 !themes/_core
 !themes/_libraries
+!themes/classic-child/templates/_partials
 
 # Vendors and dependencies
 
